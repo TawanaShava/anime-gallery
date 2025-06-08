@@ -1,4 +1,5 @@
 Anime Video Gallery
+
 A responsive web application showcasing a collection of memorable moments from various anime series through video clips. The gallery features a sleek, dark-themed interface with a lightbox for an enhanced viewing experience.
 Features
 
