@@ -19,7 +19,7 @@ Anime Video Gallery displays a collection of video clips from popular anime like
 
 ## Demo
 
-![Gallery Screenshot](./screenshots/gallery-grid.png)
+![Gallery Screenshot](./screenshots/gallery-grid.PNG)
 
 *Live demo coming soon!*
 
