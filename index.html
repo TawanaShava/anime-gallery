@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Video Gallery</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Anime Video Gallery</h1>
+        <p>A collection of beautiful moments from anime.</p>
+    </header>
+
+    <div class="gallery-container">
+        
+        <div class="gallery-item" data-caption="Hunter x Hunter">
+            <video src="videos/hunter_x_hunter.mp4" muted loop autoplay></video>
+        </div>
+
+        <div class="gallery-item" data-caption="Jujutsu Kaisen">
+            <video src="videos/jjk.mp4" muted loop autoplay></video>
+        </div>
+
+        <div class="gallery-item" data-caption="Kagurabachi">
+            <video src="videos/kagurabachi.mp4" muted loop autoplay></video>
+        </div>
+
+        <div class="gallery-item" data-caption="Choujin X">
+            <video src="videos/choujin.mp4" muted loop autoplay></video>
+        </div>
+
+        <div class="gallery-item" data-caption="Fire Force">
+            <video src="videos/fire_force.mp4" muted loop autoplay></video>
+        </div>
+
+        <div class="gallery-item" data-caption="Bleach">
+            <video src="videos/bankai.mp4" muted loop autoplay></video>
+        </div>
+
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close-button">&times;</span>
+        <video class="lightbox-content" id="lightbox-video" controls></video>
+        <div class="caption" id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
